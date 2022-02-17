@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.875em;
+    line-height: 1.5;
+}
+.heder{
+    background-color: #51296f;
+    width: 100%;
+    height: 122px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topHeder {
+    width: 900px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background-color: rgba(162, 146, 165, 0.288);
+    width: 170px;
+    height: 40px;
+}
+#dots {
+    font-size: 40px;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+}
+#dots:hover {
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fefaee;
+    border-radius: 4px;
+    width: 255px;
+    height: 310px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: -104px;
+    margin-top: 10px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 20px solid #fefaee;
+    margin-top: -32px;
+    margin-left: 113px;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    border: none;
+    color: #37224b;
+}
+.dropdown-content-input{
+    width: 248px;
+    height: 34px;
+    border: none;
+    box-shadow: 4px 4px 4px -5px rgb(18, 19, 18) inset;
+    border-radius: 4px;
+}
+ul{
+    margin-left: -40px;
+}
+li{
+    margin-top: 12px;
+}
+li a:hover {
+    color: #994464;
+    font-weight: 600;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    margin-top: 24px;
+}
+.icon img{
+    width: 28px;
+    height: 28px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 14px;
+}
+#wi{
+   transform: rotate(50deg); 
+}
+.bordLeft {
+    border-left: 1px solid rgb(148, 148, 148);
+    
+}
+a:hover {
+    color: #f1cdbc;
+}
+.bottomHeder {
+    width: 900px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+#search {
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+button {
+    background-color: #fba62b;
+    border: none;
+    margin-left: 10px;
+    color: #51296f;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+input{
+    text-indent: 20px;
+}
